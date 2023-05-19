@@ -133,18 +133,22 @@ p {
 }
 
 .card__button {
+  align-items: center;
   background-color: var(--color-green);
   border-radius: 5px;
   border: none;
+  box-shadow: 0 3px 25px 1px var(--color-stroke);
   color: var(--color-white);
+  cursor: pointer;
+  display: flex;
   font-size: 1.6rem;
   font-weight: 700;
   height: 48px;
+  justify-content: center;
   letter-spacing: -0.2px;
   outline: none;
+  text-decoration: none;
   width: 263px;
-  box-shadow: 0 3px 25px 1px var(--color-stroke);
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 1440px) {
